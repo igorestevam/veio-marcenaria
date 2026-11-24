@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Veio Marcenaria — móveis sob medida</title>
+<meta content="Demonstração ClickFocus: landing page de uma marcenaria fictícia, com ambientes, processo, escolha de acabamento e pedido de orçamento pelo WhatsApp." name="description"/>
+<meta content="noindex" name="robots"/>
+<meta content="#2A1F17" name="theme-color"/>
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="demo-bar" role="note">
+  <span><i aria-hidden="true" class="fa-solid fa-circle-info"></i> Site demonstrativo criado pela ClickFocus. A Veio é um negócio fictício.</span>
+  <a href="https://clickfocusbr.vercel.app/#contato" rel="noopener" target="_blank">Quero um site assim <i aria-hidden="true" class="fa-solid fa-arrow-right"></i></a>
+</div>
+
+<header class="header" id="topo">
+  <div class="wrap header__in">
+    <a aria-label="Veio Marcenaria — início" class="logo" href="#topo">
+      <svg aria-hidden="true" class="logo__mark" viewBox="0 0 40 40"><rect fill="#8A5A33" height="40" rx="9" width="40"/><path d="M4 12c8-5 14 5 22 0s10-2 10-2M4 21c8-5 14 5 22 0s10-2 10-2M4 30c8-5 14 5 22 0s10-2 10-2" fill="none" stroke="#E9C99B" stroke-linecap="round" stroke-width="2.2"/></svg>
+      <span><b>Veio</b><small>Marcenaria sob medida</small></span>
+    </a>
+    <nav aria-label="Navegação principal" class="nav">
+      <a href="#ambientes">Ambientes</a>
+      <a href="#processo">Como trabalhamos</a>
+      <a href="#acabamentos">Acabamentos</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+    <a class="btn btn--dark btn--sm header__cta" href="#orcamento">Pedir orçamento</a>
+    <button aria-controls="menu" aria-expanded="false" aria-label="Abrir menu" class="burger" id="burger" type="button"><span></span><span></span></button>
+  </div>
+  <nav aria-label="Menu" class="menu" hidden="" id="menu">
+    <a href="#ambientes">Ambientes</a>
+    <a href="#processo">Como trabalhamos</a>
+    <a href="#acabamentos">Acabamentos</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#duvidas">Dúvidas</a>
+    <a class="btn btn--dark" href="#orcamento">Pedir orçamento</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow">Marcenaria de família · desde 1998</p>
+        <h1>Móveis sob medida, feitos para durar <em>gerações.</em></h1>
+        <p class="lead">Cozinhas, quartos, home office e painéis desenhados para o seu espaço e produzidos na nossa oficina, com acabamento caprichado e montagem pela nossa equipe.</p>
+        <div class="hero__actions">
+          <a class="btn btn--dark btn--lg" href="#orcamento">Pedir orçamento sem compromisso <i aria-hidden="true" class="fa-solid fa-arrow-right"></i></a>
+          <a class="btn btn--line btn--lg" href="#projetos">Ver projetos</a>
+        </div>
+        <ul class="facts">
+          <li><b>01</b>Visita para medir o espaço</li>
+          <li><b>02</b>Projeto em 3D antes de produzir</li>
+          <li><b>03</b>Montagem pela própria equipe</li>
+        </ul>
+      </div>
+
+      <figure class="hero__art">
+        <svg aria-label="Ilustração de uma cozinha planejada em madeira e verde, com medidas indicadas" class="kitchen" role="img" viewBox="0 0 600 560">
+          <defs>
+            <filter height="100%" id="grain" width="100%" x="0" y="0"><feTurbulence baseFrequency="0.005 0.12" numOctaves="4" seed="7" stitchTiles="stitch" type="fractalNoise"/><feColorMatrix values="0 0 0 0 .24  0 0 0 0 .13  0 0 0 0 .06  1.1 0 0 0 -.42"/></filter>
+            <clipPath id="oakParts">
+              <rect height="136" width="156" x="60" y="72"/><rect height="136" width="156" x="384" y="72"/><rect height="16" width="520" x="40" y="296"/>
+            </clipPath>
+            <pattern height="22" id="tiles" patternUnits="userSpaceOnUse" width="44"><rect fill="#F1EADF" height="22" width="44"/><path d="M0 0.5H44M0.5 0V11M22.5 11V22M0 11.5H44" stroke="#D9CDBB"/></pattern>
+          </defs>
+          <rect fill="#EAE1D3" height="560" width="600"/>
+          <rect fill="url(#tiles)" height="86" width="480" x="60" y="210"/>
+          <!-- medidas -->
+          <g class="dim" fill="none" stroke="#5B4636" stroke-width="1.4">
+            <path d="M60 44V58M540 44V58M60 51H540"/>
+            <path d="M24 312H38M24 488H38M31 312V488"/>
+          </g>
+          <g class="dim-label">
+            <rect fill="#2A1F17" height="24" rx="12" width="76" x="262" y="39"/><text fill="#F5EFE6" font-family="Figtree, sans-serif" font-size="13" font-weight="600" text-anchor="middle" x="300" y="55">2,40 m</text>
+            <rect fill="#2A1F17" height="24" rx="12" width="64" x="0" y="388"/><text fill="#F5EFE6" font-family="Figtree, sans-serif" font-size="13" font-weight="600" text-anchor="middle" x="32" y="404">0,90 m</text>
+          </g>
+          <!-- armários superiores -->
+          <rect fill="#C48D57" height="136" width="156" x="60" y="72"/>
+          <rect fill="#C48D57" height="136" width="156" x="384" y="72"/>
+          <rect fill="#C48D57" height="16" width="520" x="40" y="296"/>
+          <rect clip-path="url(#oakParts)" filter="url(#grain)" height="260" width="560" x="20" y="60"/>
+          <path d="M138 72V208M462 72V208" stroke="#7A4F2C" stroke-opacity=".55" stroke-width="2"/>
+          <rect fill="#3A2A1E" height="34" rx="2" width="4" x="128" y="168"/><rect fill="#3A2A1E" height="34" rx="2" width="4" x="144" y="168"/>
+          <rect fill="#3A2A1E" height="34" rx="2" width="4" x="452" y="168"/><rect fill="#3A2A1E" height="34" rx="2" width="4" x="468" y="168"/>
+          <!-- nicho aberto -->
+          <rect fill="#5C3B23" height="136" width="160" x="220" y="72"/>
+          <rect fill="#C48D57" height="6" width="160" x="220" y="138"/>
+          <rect fill="#F5EFE6" height="34" rx="6" width="20" x="236" y="104"/><rect fill="#E9DCC6" height="26" rx="6" width="18" x="260" y="112"/>
+          <path d="M318 138c0-10 4-18 12-22M330 138c0-12 8-22 18-26M324 138c-4-10-12-14-20-14" fill="none" stroke="#7E8B5C" stroke-linecap="round" stroke-width="5"/>
+          <rect fill="#D9CDBB" height="16" rx="3" width="28" x="316" y="122"/>
+          <rect fill="#E9DCC6" height="40" rx="2" width="8" x="240" y="164"/><rect fill="#B7C1A0" height="36" rx="2" width="8" x="250" y="168"/><rect fill="#D9A47A" height="42" rx="2" width="8" x="260" y="162"/>
+          <circle cx="344" cy="186" fill="#E9DCC6" r="16"/>
+          <!-- itens na bancada -->
+          <rect fill="#9C6A3F" height="44" rx="10" width="34" x="96" y="252"/>
+          <ellipse cx="452" cy="288" fill="#F5EFE6" rx="40" ry="10"/><path d="M412 288a40 22 0 0 0 80 0" fill="#E9DCC6"/>
+          <!-- armários inferiores -->
+          <rect fill="#6E7A57" height="174" width="480" x="60" y="312"/>
+          <path d="M200 312V486M300 312V486M400 312V486M60 370H200M60 428H200" stroke="#4F5940" stroke-width="2"/>
+          <rect fill="#2A1F17" height="4" rx="2" width="60" x="100" y="340"/><rect fill="#2A1F17" height="4" rx="2" width="60" x="100" y="398"/><rect fill="#2A1F17" height="4" rx="2" width="60" x="100" y="456"/>
+          <rect fill="#2A1F17" height="40" rx="2" width="4" x="284" y="330"/><rect fill="#2A1F17" height="40" rx="2" width="4" x="312" y="330"/><rect fill="#2A1F17" height="40" rx="2" width="4" x="414" y="330"/>
+          <rect fill="#2A1F17" height="12" width="480" x="60" y="486"/>
+          <!-- piso -->
+          <rect fill="#D6C2A4" height="62" width="600" y="498"/>
+          <path d="M0 520H600M0 542H600M90 498V520M260 498V520M430 498V520M170 520V542M350 520V542M520 520V542" stroke="#BFA683" stroke-width="1.5"/>
+        </svg>
+        <figcaption class="tag tag--a"><i aria-hidden="true" class="fa-solid fa-cube"></i> Você aprova o projeto 3D antes</figcaption>
+        <p aria-hidden="true" class="tag tag--b"><i class="fa-solid fa-ruler-combined"></i> Medido no local</p>
+      </figure>
+    </div>
+  </section>
+
+  <!-- AMBIENTES -->
+  <section class="section" id="ambientes">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Ambientes</p>
+        <h2>Do armário da cozinha ao painel da sala.</h2>
+        <p class="lead">Cada móvel é desenhado para as medidas e a rotina da sua casa ou empresa. Nada de tamanho padrão.</p>
+      </div>
+      <div class="rooms">
+        <article class="room reveal"><i aria-hidden="true" class="fa-solid fa-kitchen-set"></i><h3>Cozinhas</h3><p>Armários, ilhas e bancadas que aproveitam cada canto.</p></article>
+        <article class="room reveal"><i aria-hidden="true" class="fa-solid fa-bed"></i><h3>Quartos</h3><p>Guarda-roupas, cabeceiras e quartos infantis.</p></article>
+        <article class="room reveal"><i aria-hidden="true" class="fa-solid fa-laptop"></i><h3>Home office</h3><p>Mesas e estantes no tamanho certo para trabalhar bem.</p></article>
+        <article class="room reveal"><i aria-hidden="true" class="fa-solid fa-tv"></i><h3>Salas</h3><p>Painéis ripados, racks e estantes para TV.</p></article>
+        <article class="room reveal"><i aria-hidden="true" class="fa-solid fa-bath"></i><h3>Banheiros</h3><p>Gabinetes e nichos resistentes à umidade.</p></article>
+        <article class="room reveal"><i aria-hidden="true" class="fa-solid fa-store"></i><h3>Comercial</h3><p>Balcões e móveis para lojas, consultórios e escritórios.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESSO -->
+  <section class="section section--dark" id="processo">
+    <div class="wrap">
+      <div class="head head--light">
+        <p class="eyebrow">Como trabalhamos</p>
+        <h2>Você sabe exatamente o que vai receber, <em>antes de começarmos.</em></h2>
+      </div>
+      <ol class="steps">
+        <li class="step reveal"><span>1</span><h3>Conversa</h3><p>Você conta o que precisa, manda fotos ou a planta do espaço.</p></li>
+        <li class="step reveal"><span>2</span><h3>Visita e medição</h3><p>Vamos até o local para medir tudo com precisão.</p></li>
+        <li class="step reveal"><span>3</span><h3>Projeto 3D</h3><p>Mostramos como vai ficar, com cores e acabamentos, e ajustamos com você.</p></li>
+        <li class="step reveal"><span>4</span><h3>Produção</h3><p>Os móveis são feitos na nossa oficina, peça por peça.</p></li>
+        <li class="step reveal"><span>5</span><h3>Montagem</h3><p>Nossa equipe instala e deixa tudo limpo e no lugar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ACABAMENTOS -->
+  <section class="section" id="acabamentos">
+    <div class="wrap finish">
+      <div class="finish__copy">
+        <div class="head">
+          <p class="eyebrow">Acabamentos</p>
+          <h2>Escolha o acabamento e veja como fica.</h2>
+          <p class="lead">Uma amostra de opções. Na visita levamos o mostruário completo para você ver e tocar.</p>
+        </div>
+        <div aria-label="Acabamentos" class="swatches" id="swatches" role="radiogroup"></div>
+        <div aria-live="polite" class="finish__info">
+          <h3 id="finish-name">Carvalho natural</h3>
+          <p id="finish-desc">Claro e versátil, combina com quase todos os ambientes.</p>
+        </div>
+      </div>
+      <div class="finish__stage reveal" id="finish-stage" style="--wood:#C48D57; --grain:1">
+        <svg aria-hidden="true" class="wardrobe" viewBox="0 0 420 460">
+          <defs>
+            <filter height="100%" id="grain2" width="100%" x="0" y="0"><feTurbulence baseFrequency="0.004 0.1" numOctaves="4" seed="3" stitchTiles="stitch" type="fractalNoise"/><feColorMatrix values="0 0 0 0 .22  0 0 0 0 .12  0 0 0 0 .05  1.1 0 0 0 -.42"/></filter>
+            <clipPath id="doors"><rect height="380" width="356" x="32" y="30"/></clipPath>
+          </defs>
+          <rect class="wardrobe__body" height="380" width="356" x="32" y="30"/>
+          <rect class="wardrobe__grain" clip-path="url(#doors)" filter="url(#grain2)" height="400" width="400" x="10" y="20"/>
+          <path d="M150 30V410M270 30V410M32 330H388" stroke="rgba(0,0,0,.22)" stroke-width="2"/>
+          <rect fill="#2A1F17" height="60" rx="3" width="5" x="138" y="160"/><rect fill="#2A1F17" height="60" rx="3" width="5" x="157" y="160"/><rect fill="#2A1F17" height="60" rx="3" width="5" x="258" y="160"/>
+          <rect fill="#2A1F17" height="5" rx="3" width="50" x="66" y="368"/><rect fill="#2A1F17" height="5" rx="3" width="50" x="186" y="368"/><rect fill="#2A1F17" height="5" rx="3" width="50" x="304" y="368"/>
+          <rect fill="#2A1F17" height="14" width="356" x="32" y="410"/>
+          <ellipse cx="210" cy="438" fill="rgba(42,31,23,.18)" rx="200" ry="10"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="section section--paper" id="projetos">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Projetos</p>
+        <h2>Alguns ambientes que gostamos de fazer.</h2>
+      </div>
+      <div class="gallery">
+        <figure class="work work--wide reveal">
+          <div aria-hidden="true" class="art art--slats"><span class="slats grain"></span><span class="tv"></span><span class="rack grain"></span><span class="lamp"></span></div>
+          <figcaption><b>Painel ripado com rack suspenso</b><span>Sala · freijó</span></figcaption>
+        </figure>
+        <figure class="work reveal">
+          <div aria-hidden="true" class="art art--kitchen"><span class="up grain"></span><span class="up grain"></span><span class="up grain"></span><span class="top grain"></span><span class="low"></span><span class="low"></span><span class="low"></span></div>
+          <figcaption><b>Cozinha em dois tons</b><span>Cozinha · carvalho e verde</span></figcaption>
+        </figure>
+        <figure class="work reveal">
+          <div aria-hidden="true" class="art art--office"><span class="shelf grain"><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="desk grain"></span><span class="leg"></span><span class="leg leg--r"></span></div>
+          <figcaption><b>Home office com estante</b><span>Escritório · nogueira</span></figcaption>
+        </figure>
+        <figure class="work work--wide reveal">
+          <div aria-hidden="true" class="art art--closet"><span class="panel grain"></span><span class="panel panel--mirror"></span><span class="panel grain"></span></div>
+          <figcaption><b>Guarda-roupa de portas de correr</b><span>Quarto · laca off-white e carvalho</span></figcaption>
+        </figure>
+      </div>
+      <p class="note">Imagens ilustrativas criadas para esta demonstração.</p>
+    </div>
+  </section>
+
+  <!-- ORÇAMENTO -->
+  <section class="section section--dark" id="orcamento">
+    <div class="wrap quote">
+      <div class="head head--light">
+        <p class="eyebrow">Orçamento</p>
+        <h2>Conte o que você precisa. <em>A gente desenha.</em></h2>
+        <p class="lead">Preencha o básico e a mensagem já vai pronta para o nosso WhatsApp. Fotos e plantas você manda por lá.</p>
+        <ul class="ticks">
+          <li><i aria-hidden="true" class="fa-solid fa-check"></i> Orçamento sem compromisso</li>
+          <li><i aria-hidden="true" class="fa-solid fa-check"></i> Resposta em horário comercial</li>
+        </ul>
+      </div>
+      <form class="form reveal" id="quote" novalidate="">
+        <fieldset>
+          <legend>Quais ambientes?</legend>
+          <div class="chips">
+            <label class="chip"><input name="rooms" type="checkbox" value="Cozinha"/><span>Cozinha</span></label>
+            <label class="chip"><input name="rooms" type="checkbox" value="Quarto"/><span>Quarto</span></label>
+            <label class="chip"><input name="rooms" type="checkbox" value="Home office"/><span>Home office</span></label>
+            <label class="chip"><input name="rooms" type="checkbox" value="Sala"/><span>Sala</span></label>
+            <label class="chip"><input name="rooms" type="checkbox" value="Banheiro"/><span>Banheiro</span></label>
+            <label class="chip"><input name="rooms" type="checkbox" value="Comercial"/><span>Comercial</span></label>
+          </div>
+        </fieldset>
+        <div class="form__row">
+          <label class="field"><span>Seu nome</span><input autocomplete="name" name="name" placeholder="Como podemos te chamar?" required="" type="text"/></label>
+          <label class="field"><span>Bairro / cidade</span><input name="city" placeholder="Ex.: Centro, Vitória" type="text"/></label>
+        </div>
+        <div class="form__row">
+          <label class="field"><span>Medidas aproximadas</span><input name="size" placeholder="Ex.: parede de 3 m" type="text"/></label>
+          <label class="field"><span>Para quando?</span>
+            <select name="when">
+              <option>Sem pressa</option>
+              <option>Nos próximos 3 meses</option>
+              <option>O quanto antes</option>
+            </select>
+          </label>
+        </div>
+        <label class="field"><span>Conte um pouco mais</span><textarea name="notes" placeholder="Ex.: quero aproveitar o canto da cozinha e ter mais espaço para panelas."></textarea></label>
+        <div class="form__preview" aria-live="polite">
+          <p class="form__preview-label"><i aria-hidden="true" class="fa-brands fa-whatsapp"></i> Prévia da mensagem</p>
+          <p id="quote-preview"></p>
+        </div>
+        <p class="form__err" hidden="" id="quote-err" role="alert">Escolha pelo menos um ambiente e informe seu nome.</p>
+        <button class="btn btn--wood btn--lg btn--full" type="submit"><i aria-hidden="true" class="fa-brands fa-whatsapp"></i> Enviar pelo WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- DÚVIDAS -->
+  <section class="section" id="duvidas">
+    <div class="wrap faq-wrap">
+      <div class="head">
+        <p class="eyebrow">Dúvidas</p>
+        <h2>Perguntas frequentes.</h2>
+      </div>
+      <div class="faq">
+        <details class="reveal"><summary>Qual a diferença entre MDF e madeira maciça?<i aria-hidden="true" class="fa-solid fa-plus"></i></summary><p>O MDF é uma chapa feita de fibras de madeira: estável, ótimo para pintura e mais econômico. A madeira maciça é a tábua natural, com veios únicos e muito durável. Muitos projetos combinam os dois, e explicamos a melhor opção para cada móvel.</p></details>
+        <details class="reveal"><summary>Vocês vão até a minha casa para medir?<i aria-hidden="true" class="fa-solid fa-plus"></i></summary><p>Sim. Depois da primeira conversa agendamos uma visita para medir o espaço e entender as instalações de água, luz e gás.</p></details>
+        <details class="reveal"><summary>Quanto tempo demora para ficar pronto?<i aria-hidden="true" class="fa-solid fa-plus"></i></summary><p>Depende do tamanho do projeto. O prazo é informado no orçamento, antes de você fechar, e conta a partir da aprovação do projeto 3D.</p></details>
+        <details class="reveal"><summary>Consigo ver como vai ficar antes?<i aria-hidden="true" class="fa-solid fa-plus"></i></summary><p>Sim. Você recebe imagens em 3D do ambiente com as cores e acabamentos escolhidos e pode pedir ajustes antes da produção.</p></details>
+        <details class="reveal"><summary>Atendem quais regiões?<i aria-hidden="true" class="fa-solid fa-plus"></i></summary><p>A cidade da oficina e as cidades vizinhas. Para outras regiões, consulte pelo WhatsApp.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final">
+    <div class="wrap final__in reveal">
+      <h2>Vamos desenhar o seu próximo móvel?</h2>
+      <a class="btn btn--wood btn--lg" href="#orcamento">Pedir orçamento <i aria-hidden="true" class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <div>
+      <a aria-label="Veio Marcenaria" class="logo logo--light" href="#topo">
+        <svg aria-hidden="true" class="logo__mark" viewBox="0 0 40 40"><rect fill="#8A5A33" height="40" rx="9" width="40"/><path d="M4 12c8-5 14 5 22 0s10-2 10-2M4 21c8-5 14 5 22 0s10-2 10-2M4 30c8-5 14 5 22 0s10-2 10-2" fill="none" stroke="#E9C99B" stroke-linecap="round" stroke-width="2.2"/></svg>
+        <span><b>Veio</b><small>Marcenaria sob medida</small></span>
+      </a>
+      <p class="footer__txt"><i aria-hidden="true" class="fa-solid fa-location-dot"></i> Rua dos Carpinteiros, 210 — Galpão 3 (endereço fictício)<br/><i aria-hidden="true" class="fa-regular fa-clock"></i> Seg. a sex.: 8h às 18h · Sáb.: 8h às 12h</p>
+    </div>
+    <div class="footer__links">
+      <a href="#ambientes">Ambientes</a><a href="#processo">Como trabalhamos</a><a href="#projetos">Projetos</a><a href="#orcamento">Orçamento</a>
+    </div>
+  </div>
+  <div class="wrap footer__legal">
+    <p><strong>Projeto demonstrativo.</strong> Veio Marcenaria é um negócio fictício criado pela ClickFocus para mostrar um modelo de landing page. Nomes, projetos, endereço e histórico são ilustrativos.</p>
+    <a href="https://clickfocusbr.vercel.app/" rel="noopener" target="_blank">Site criado por <b>ClickFocus</b></a>
+  </div>
+</footer>
+
+<button aria-label="Falar no WhatsApp" class="wa-float" data-wa="Olá! Vim pelo site da Veio e gostaria de mais informações." type="button"><i aria-hidden="true" class="fa-brands fa-whatsapp"></i></button>
+
+<div aria-hidden="true" aria-labelledby="demo-title" aria-modal="true" class="demo-modal" id="demo-modal" role="dialog">
+  <div class="demo-modal__box">
+    <button aria-label="Fechar" class="demo-modal__x" type="button"><i aria-hidden="true" class="fa-solid fa-xmark"></i></button>
+    <p class="demo-modal__tag">Demonstração</p>
+    <h2 id="demo-title">Aqui o WhatsApp da marcenaria abriria assim:</h2>
+    <div class="demo-modal__msg"><p id="demo-msg"></p></div>
+    <p class="demo-modal__txt">Como a Veio é um negócio fictício, nenhuma mensagem é enviada. Quer esse recurso no site do seu negócio?</p>
+    <div class="demo-modal__actions">
+      <a class="btn btn--wood" href="https://wa.me/5527992249680?text=Ol%C3%A1%21%20Vi%20a%20demonstra%C3%A7%C3%A3o%20da%20Veio%20Marcenaria%20e%20quero%20um%20site%20assim%20para%20o%20meu%20neg%C3%B3cio." rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="fa-brands fa-whatsapp"></i> Falar com a ClickFocus</a>
+      <button class="btn btn--line demo-modal__close" type="button">Voltar ao site</button>
+    </div>
+  </div>
+</div>
+
+<script defer="" src="script.js"></script>
+</body>
+</html>
